@@ -82,6 +82,13 @@ class StorePostDto
     public ?string $subTitle;
     public string $content;
     public ?Carbon $releaseDate;
+    
+    public function __construct(string $title, ?string $subTitle, string $content, ?string $releaseDate) {
+        $this->title = $title;
+        $this->subTitle = $subTitle;
+        $this->content = $content;
+        $this->releaseDate = Carbon::parse($releaseDate);
+    }
 }
 
 // PostController.php
