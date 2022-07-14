@@ -1,5 +1,5 @@
 {
-    "name": "niki9796dk/laravel-data-transfer-requests",
+    "name": "primen/laravel-data-transfer-requests",
     "description": "Adds seamless data oriented request objects to Laravel as a plug-in replacement to Request objects",
     "type": "library",
     "license": "MIT",

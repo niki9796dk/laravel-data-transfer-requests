@@ -10,7 +10,7 @@ Simply type-hint your DataTransferRequest class instead of a FromRequest.
 
 ## Installation
 
-``composer require niki9796dk/laravel-data-transfer-requests``
+``composer require primen/laravel-data-transfer-requests``
 
 ## Usage
 To use the package, simply create a class which extends the DataTransferRequest class, and define your request fields as public fields with their required type.
