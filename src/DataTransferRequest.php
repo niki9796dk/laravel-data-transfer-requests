@@ -1,6 +1,6 @@
 <?php
 
-namespace Niki9796dk\LaravelDataTransferRequests;
+namespace Primen\LaravelDataTransferRequests;
 
 use TypeError;
 use ReflectionType;
@@ -12,11 +12,11 @@ use BadMethodCallException;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Validation\ValidatesWhenResolvedTrait;
-use Niki9796dk\LaravelDataTransferRequests\RuleSets\RuleSet;
+use Primen\LaravelDataTransferRequests\RuleSets\RuleSet;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
-use Niki9796dk\LaravelDataTransferRequests\Attributes\AddsRules;
-use Niki9796dk\LaravelDataTransferRequests\Reflection\AdvancedReflectionClass;
+use Primen\LaravelDataTransferRequests\Attributes\AddsRules;
+use Primen\LaravelDataTransferRequests\Reflection\AdvancedReflectionClass;
 
 /**
  * @implements Arrayable<string, mixed>

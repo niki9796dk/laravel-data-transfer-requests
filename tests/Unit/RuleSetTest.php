@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use Niki9796dk\LaravelDataTransferRequests\RuleSets\RuleSet;
+use Primen\LaravelDataTransferRequests\RuleSets\RuleSet;
 
 class RuleSetTest extends TestCase
 {

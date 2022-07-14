@@ -1,6 +1,6 @@
 <?php
 
-namespace Niki9796dk\LaravelDataTransferRequests\Attributes;
+namespace Primen\LaravelDataTransferRequests\Attributes;
 
 interface AddsRules
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Niki9796dk\LaravelDataTransferRequests\RuleSets;
+namespace Primen\LaravelDataTransferRequests\RuleSets;
 
 use Illuminate\Support\Str;
 use InvalidArgumentException;

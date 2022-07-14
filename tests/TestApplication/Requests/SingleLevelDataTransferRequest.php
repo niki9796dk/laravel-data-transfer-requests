@@ -2,7 +2,7 @@
 
 namespace Tests\TestApplication\Requests;
 
-use Niki9796dk\LaravelDataTransferRequests\DataTransferRequest;
+use Primen\LaravelDataTransferRequests\DataTransferRequest;
 
 class SingleLevelDataTransferRequest extends DataTransferRequest
 {

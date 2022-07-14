@@ -1,9 +1,9 @@
 <?php
 
-namespace Niki9796dk\LaravelDataTransferRequests\ServiceProviders;
+namespace Primen\LaravelDataTransferRequests\ServiceProviders;
 
 use Illuminate\Support\ServiceProvider;
-use Niki9796dk\LaravelDataTransferRequests\DataTransferRequest;
+use Primen\LaravelDataTransferRequests\DataTransferRequest;
 
 class LaravelDataRequestServiceProvider extends ServiceProvider
 {

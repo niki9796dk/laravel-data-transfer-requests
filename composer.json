@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Niki9796dk\\LaravelDataTransferRequests\\": "src/"
+            "Primen\\LaravelDataTransferRequests\\": "src/"
         }
     },
     "autoload-dev": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Niki9796dk\\LaravelDataTransferRequests\\ServiceProviders\\LaravelDataRequestServiceProvider"
+                "Primen\\LaravelDataTransferRequests\\ServiceProviders\\LaravelDataRequestServiceProvider"
             ]
         }
     }

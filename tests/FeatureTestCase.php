@@ -5,7 +5,7 @@ namespace Tests;
 use Illuminate\Routing\Router;
 use Orchestra\Testbench\TestCase;
 use Tests\TestApplication\Controllers\TestController;
-use Niki9796dk\LaravelDataTransferRequests\ServiceProviders\LaravelDataRequestServiceProvider;
+use Primen\LaravelDataTransferRequests\ServiceProviders\LaravelDataRequestServiceProvider;
 
 class FeatureTestCase extends TestCase
 {

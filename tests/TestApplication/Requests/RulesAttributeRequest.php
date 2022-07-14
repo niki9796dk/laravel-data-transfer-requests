@@ -2,8 +2,8 @@
 
 namespace Tests\TestApplication\Requests;
 
-use Niki9796dk\LaravelDataTransferRequests\Attributes\Rules;
-use Niki9796dk\LaravelDataTransferRequests\DataTransferRequest;
+use Primen\LaravelDataTransferRequests\Attributes\Rules;
+use Primen\LaravelDataTransferRequests\DataTransferRequest;
 
 class RulesAttributeRequest extends DataTransferRequest
 {

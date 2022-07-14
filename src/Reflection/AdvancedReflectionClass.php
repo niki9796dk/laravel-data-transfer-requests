@@ -1,6 +1,6 @@
 <?php
 
-namespace Niki9796dk\LaravelDataTransferRequests\Reflection;
+namespace Primen\LaravelDataTransferRequests\Reflection;
 
 use ReflectionClass;
 use ReflectionProperty;

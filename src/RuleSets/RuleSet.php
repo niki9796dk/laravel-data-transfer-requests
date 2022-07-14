@@ -1,6 +1,6 @@
 <?php
 
-namespace Niki9796dk\LaravelDataTransferRequests\RuleSets;
+namespace Primen\LaravelDataTransferRequests\RuleSets;
 
 class RuleSet
 {

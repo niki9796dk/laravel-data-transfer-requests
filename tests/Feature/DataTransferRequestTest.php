@@ -4,8 +4,8 @@ namespace Tests\Feature;
 
 use Tests\FeatureTestCase;
 use Illuminate\Validation\ValidationException;
-use Niki9796dk\LaravelDataTransferRequests\Attributes\Rules;
-use Niki9796dk\LaravelDataTransferRequests\DataTransferRequest;
+use Primen\LaravelDataTransferRequests\Attributes\Rules;
+use Primen\LaravelDataTransferRequests\DataTransferRequest;
 
 class DataTransferRequestTest extends FeatureTestCase
 {

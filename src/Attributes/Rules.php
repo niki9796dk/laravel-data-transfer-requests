@@ -1,9 +1,9 @@
 <?php
 
-namespace Niki9796dk\LaravelDataTransferRequests\Attributes;
+namespace Primen\LaravelDataTransferRequests\Attributes;
 
 use Attribute;
-use Niki9796dk\LaravelDataTransferRequests\RuleSets\RuleSet;
+use Primen\LaravelDataTransferRequests\RuleSets\RuleSet;
 
 #[Attribute(Attribute::TARGET_PROPERTY)]
 class Rules implements AddsRules
