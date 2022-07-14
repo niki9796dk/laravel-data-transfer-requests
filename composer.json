@@ -1,0 +1,37 @@
+{
+    "name": "niki9796dk/laravel-data-transfer-requests",
+    "description": "Adds seamless data oriented request objects to Laravel as a plug-in replacement to Request objects",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Niki9796dk\\LaravelDataTransferRequests\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Niki",
+            "email": "nikiewald@hotmail.dk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "8.0.x-dev",
+        "cego/php-cs-fixer": "dev-main"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Niki9796dk\\LaravelDataTransferRequests\\ServiceProviders\\LaravelDataRequestServiceProvider"
+            ]
+        }
+    }
+}
